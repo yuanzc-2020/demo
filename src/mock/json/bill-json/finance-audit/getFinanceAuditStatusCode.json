@@ -1,0 +1,20 @@
+{
+    "success": true,
+    "code": 0,
+    "message": "success",
+    "timestamp": 1587628129891,
+    "result": [
+        {
+            "statusCode": 1000,
+            "statusName": "草稿"
+        },
+        {
+            "statusCode": 1001,
+            "statusName": "归档"
+        },
+        {
+            "statusCode": 1002,
+            "statusName": "作废"
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+	"success": true,
+	"message": "success",
+	"code": 200,
+	"timestamp": 1582525223029,
+	"result": {
+		"content": [
+			{
+				"title": "[公司]四川",
+				"id": "111",
+				"pid": 0,
+				"type": 1,
+				"expand": true,
+				"statusCode": 1,
+				"isParent": true,
+				"children": [
+					{
+						"title": "[公司]成都",
+						"id": "222",
+						"pid": 111,
+						"type": 1,
+						"isParent": true,
+						"statusCode": 0,
+						"children": [
+							{
+								"title": "[公司]双流区",
+								"id": "222",
+								"pid": 111,
+								"type": 1,
+								"isParent": false,
+								"statusCode": 0
+							},
+							{
+								"title": "[公司]崇州",
+								"id": "333",
+								"pid": 111,
+								"type": 1,
+								"isParent": false,
+								"statusCode": 1
+							},
+							{
+								"title": "[公司]龙泉",
+								"id": "444",
+								"pid": 111,
+								"type": 1,
+								"isParent": false,
+								"statusCode": 1
+							}
+						]
+					},
+					{
+						"title": "[公司]德阳",
+						"id": "333",
+						"pid": 111,
+						"type": 1,
+						"isParent": true,
+						"statusCode": 1,
+						"children": [
+							{
+								"title": "[架构]德阳公司体系架构",
+								"id": "222",
+								"pid": 333,
+								"type": 2,
+								"isParent": false,
+								"statusCode": 0
+							},
+							{
+								"title": "[架构]德阳公司财务架构",
+								"id": "333",
+								"pid": 333,
+								"type": 2,
+								"isParent": false,
+								"statusCode": 1
+							},
+							{
+								"title": "[架构]德阳公司领卡架构",
+								"id": "444",
+								"pid": 333,
+								"type": 2,
+								"isParent": false,
+								"statusCode": 1
+							}
+						]
+					},
+					{
+						"title": "[公司]自贡",
+						"id": "444",
+						"pid": 111,
+						"type": 1,
+						"isParent": true,
+						"statusCode": 1
+					}
+				]
+			}
+		]
+	}
+}

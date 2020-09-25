@@ -1,0 +1,26 @@
+{
+	"success": true,
+	"message": "success",
+	"code": 0,
+	"timestamp": 1583681112293,
+	"result": {
+		"userId": "1363087427",
+		"userName": "陈鹤鸣",
+		"phone": "18363018490",
+		"email": "1929775519@qq.com",
+		"corpLevel": "2",
+		"corpId": "288881",
+		"corpName": "成都",
+		"roles": [{
+			"roleId": "80001",
+			"roleName": "订单人员",
+			"roleType": "1=通用类型 与级别有关",
+			"roleLevel": "3"
+		}, {
+			"roleId": "80002",
+			"roleName": "采购人员",
+			"roleType": "2=归属单位，与单位有关",
+			"roleLevel": "2"
+		}]
+	}
+}

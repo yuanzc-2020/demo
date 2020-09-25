@@ -1,0 +1,123 @@
+{
+    "success": true,
+    "message": "success",
+    "code": 0,
+    "timestamp": 1582525223029,
+    "result": {
+        "content": [
+            {
+                "orgId": "20010",
+                "orgName": "德阳吴兴大厦斌思劳动小组",
+                "existsType":0,
+                "corpId": "1000222",
+                "corpName": "德阳市",
+                "archId": "20010",
+                "archName": "德阳市公司架构体系",
+                "orders":1,
+                "statusCode": 1,
+                "addUserName": "鹤鸣",
+                "addTime": "2020-3-23 13:15:55",
+                "description": "我是厅店组，受理卡号的"
+            } ,
+            {
+                "orgId": "20011",
+                "orgName": "天台二路祥伦维护小组",
+                "existsType":1,
+                "corpId": "1000222",
+                "corpName": "成都市",
+                "archId": "20010",
+                "archName": "成都市公司架构体系",
+                "orders":2,
+                "statusCode": 1,
+                "addUserName": "鹤鸣",
+                "addTime": "2020-3-23 13:15:55",
+                "description": "我是审核组，单据审都是我的"
+            } ,
+            {
+                "orgId": "20011",
+                "orgName": "泰州街诚全之树活动小组",
+                "existsType":1,
+                "corpId": "1000222",
+                "corpName": "南充市",
+                "archId": "20010",
+                "archName": "南充市公司架构体系",
+                "orders":3,
+                "statusCode": 0,
+                "addUserName": "鹤鸣",
+                "addTime": "2020-3-23 13:15:55",
+                "description": "我是收钱组啊 只要钱"
+            } ,
+            {
+                "orgId": "20011",
+                "orgName": "咸阳支街发元客服小组",
+                "existsType":1,
+                "corpId": "1000222",
+                "corpName": "泸州市",
+                "archId": "20010",
+                "archName": "泸州市公司架构体系",
+                "orders":4,
+                "statusCode": 1,
+                "addUserName": "鹤鸣",
+                "addTime": "2020-3-23 13:15:55",
+                "description": "我是卖卡组的"
+            } ,
+            {
+                "orgId": "20010",
+                "orgName": "德阳吴兴大厦斌思劳动小组",
+                "existsType":0,
+                "corpId": "1000222",
+                "corpName": "德阳市",
+                "archId": "20010",
+                "archName": "德阳市公司架构体系",
+                "orders":1,
+                "statusCode": 1,
+                "addUserName": "鹤鸣",
+                "addTime": "2020-3-23 13:15:55",
+                "description": "我是厅店组，受理卡号的"
+            } ,
+            {
+                "orgId": "20011",
+                "orgName": "天台二路祥伦维护小组",
+                "existsType":1,
+                "corpId": "1000222",
+                "corpName": "成都市",
+                "archId": "20010",
+                "archName": "成都市公司架构体系",
+                "orders":2,
+                "statusCode": 1,
+                "addUserName": "鹤鸣",
+                "addTime": "2020-3-23 13:15:55",
+                "description": "我是审核组，单据审都是我的"
+            } ,
+            {
+                "orgId": "20011",
+                "orgName": "泰州街诚全之树活动小组",
+                "existsType":1,
+                "corpId": "1000222",
+                "corpName": "南充市",
+                "archId": "20010",
+                "archName": "南充市公司架构体系",
+                "orders":3,
+                "statusCode": 0,
+                "addUserName": "鹤鸣",
+                "addTime": "2020-3-23 13:15:55",
+                "description": "我是收钱组啊 只要钱"
+            } ,
+            {
+                "orgId": "20011",
+                "orgName": "咸阳支街发元客服小组",
+                "existsType":1,
+                "corpId": "1000222",
+                "corpName": "泸州市",
+                "archId": "20010",
+                "archName": "泸州市公司架构体系",
+                "orders":4,
+                "statusCode": 1,
+                "addUserName": "鹤鸣",
+                "addTime": "2020-3-23 13:15:55",
+                "description": "我是卖卡组的"
+            } 
+        ],
+        "total": "8"
+    }
+}

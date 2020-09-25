@@ -1,0 +1,32 @@
+{
+    "success": true,
+    "code": 0,
+    "message": "success",
+    "timestamp": 1587091506316,
+    "result": [
+        {
+            "statusCode": 1000,
+            "statusName": "草稿"
+        },
+        {
+            "statusCode": 1001,
+            "statusName": "业务流程审核中"
+        },
+        {
+            "statusCode": 1002,
+            "statusName": "业务流程审核完成"
+        },
+        {
+            "statusCode": 1003,
+            "statusName": "单据已作废"
+        },
+        {
+            "statusCode": 1004,
+            "statusName": "本地料账和库管出库"
+        },
+        {
+            "statusCode": 1005,
+            "statusName": "对方单位已入库"
+        }
+    ]
+}

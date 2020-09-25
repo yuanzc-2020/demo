@@ -1,0 +1,61 @@
+{
+    "success": true,
+    "message": "success",
+    "code": 200,
+    "timestamp": 1588228443077,
+    "result": [
+        {
+            "id": "40322777781112832",
+            "createBy": "",
+            "createTime": "2018-08-10 20:40:40",
+            "updateBy": "",
+            "updateTime": "2018-08-11 00:03:06",
+            "delFlag": 0,
+            "title": "总部",
+            "parentId": "0",
+            "isParent": true,
+            "sortOrder": 1.00,
+            "status": 0,
+            "parentTitle": "一级部门",
+            "mainHeader": [
+                "682265633886208"
+            ],
+            "viceHeader": [
+                "682265633886208",
+                "16739222421508096"
+            ]
+        },
+        {
+            "id": "40343262766043136",
+            "createBy": "",
+            "createTime": "2018-08-10 22:02:04",
+            "updateBy": "",
+            "updateTime": "2018-08-11 00:02:53",
+            "delFlag": 0,
+            "title": "成都分部",
+            "parentId": "0",
+            "isParent": true,
+            "sortOrder": 2.00,
+            "status": 0,
+            "parentTitle": "一级部门",
+            "mainHeader": [],
+            "viceHeader": []
+        },
+        {
+            "id": "40652270295060480",
+            "createBy": "",
+            "createTime": "2018-08-11 18:29:57",
+            "updateBy": "",
+            "updateTime": "2018-09-22 00:07:05",
+            "delFlag": 0,
+            "title": "人事部",
+            "parentId": "0",
+            "isParent": true,
+            "sortOrder": 3.00,
+            "status": 0,
+            "parentTitle": "一级部门",
+            "mainHeader": [],
+            "viceHeader": []
+        }
+    ]
+}

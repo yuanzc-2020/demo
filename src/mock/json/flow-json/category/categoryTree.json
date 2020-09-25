@@ -1,0 +1,54 @@
+{
+	"success": true,
+	"message": "success",
+	"code": 0,
+	"timestamp": 1586054135606,
+	"result": [
+		{
+			"id": "11",
+			"title": "工作流程",
+			"pid": "0",
+			"categoryType": "0",
+			"statusCode": 0,
+			"children": [
+				{
+					"id": "111",
+					"title": "请假审核",
+					"pid": "11",
+					"categoryType": "1",
+					"statusCode": 0
+				},
+				{
+					"id": "112",
+					"title": "外出审核",
+					"pid": "11",
+					"categoryType": "1",
+					"statusCode": 0
+				}
+			]
+		},
+		{
+			"id": "22",
+			"title": "订单流程",
+			"pid": "0",
+			"categoryType": "0",
+			"statusCode": 0,
+			"children": [
+				{
+					"id": "133",
+					"title": "采购申请",
+					"pid": "22",
+					"categoryType": "1",
+					"statusCode": 0
+				},
+				{
+					"id": "134",
+					"title": "物资审批",
+					"pid": "22",
+					"categoryType": "1",
+					"statusCode": 0
+				}
+			]
+		}
+	]
+}

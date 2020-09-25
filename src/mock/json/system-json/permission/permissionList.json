@@ -1,0 +1,25 @@
+{
+    "success": true,
+    "message": "success",
+    "code": 0,
+    "timestamp": 1582525223029,
+    "result": {
+        "content": [
+            {
+                "permissionId": "111",
+                "permissionName": "成都/出库单编制",
+                "statusCode": 1,
+                "addUserName": "管理员",
+                "addTime": "2020-01-17 10:57:21"
+            },
+            {
+                "permissionId": "222",
+                "permissionName": "成都/售卡单编制",
+                "statusCode": 1,
+                "addUserName": "管理员",
+                "addTime": "2020-01-17 10:57:21"
+            }
+        ],
+        "total": 2
+    }
+}

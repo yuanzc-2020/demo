@@ -1,0 +1,32 @@
+{
+    "success": true,
+    "message": "success",
+    "code": 200,
+    "timestamp": 1582525223029,
+    "result": [
+        {
+            "userId": "11",
+            "userName": "陈鹤鸣",
+            "corpId": "101",
+            "corpName": "成都"
+        },
+        {
+            "userId": "22",
+            "userName": "李大牛",
+            "corpId": "101",
+            "corpName": "青羊区"
+        },
+        {
+            "userId": "13",
+            "userName": "王麻子",
+            "corpId": "101",
+            "corpName": "双流区"
+        },
+        {
+            "userId": "14",
+            "userName": "张屠户",
+            "corpId": "101",
+            "corpName": "省公司"
+        }
+    ]
+}

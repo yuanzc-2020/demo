@@ -1,0 +1,14 @@
+{
+    "success": true,
+    "message": "success",
+    "code": 0,
+    "timestamp": 1589637073898,
+    "result": {
+        "id": null,
+        "title": "二级审批",
+        "type": 1,
+        "roles": null,
+        "users": [], 
+        "expand": true
+    }
+}

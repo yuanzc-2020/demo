@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "message": "success",
+  "code": 200,
+  "timestamp": 1582525223029,
+  "result": {
+    "content": [
+      {
+        "toCorpId": "1",
+        "toCorpName": "攀枝花电信分公司"
+      },
+      {
+        "toCorpId": "2",
+        "toCorpName": "自贡电信分公司"
+      },
+      {
+        "toCorpId": "3",
+        "toCorpName": "泸州电信分公司"
+      }
+
+    ]
+  }
+}

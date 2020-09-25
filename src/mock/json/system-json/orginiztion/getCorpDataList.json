@@ -1,0 +1,120 @@
+{
+	"success": true,
+	"message": "success",
+	"code": 0,
+	"timestamp": 1582525223029,
+	"result": {
+		"content": [
+			{
+				"corpId": "1000222",
+				"corpCode": "2232424",
+				"corpName": "北川城区",
+				"level": "1",
+				"corpFullId": "1.281.1000222",
+				"addUserName": "鹤鸣",
+				"addTime": "2020-3-23 13:15:55",
+				"statusCode": 1,
+				"regionId":"成都市"
+			},
+			{
+				"corpId": "1000222",
+				"corpCode": "J51343648422",
+				"corpName": "木里县桥头手机销售店",
+				"level": "1",
+				"corpFullId": "1.281.1000222",
+				"addUserName": "鹤鸣",
+				"addTime": "2020-3-23 13:15:55",
+				"statusCode": 1,
+				"regionId":"成都市"
+			},
+			{
+				"corpId": "1000222",
+				"corpCode": "2232424",
+				"corpName": "北川城区",
+				"level": "1",
+				"corpFullId": "1.281.1000222",
+				"addUserName": "鹤鸣",
+				"addTime": "2020-3-23 13:15:55",
+				"statusCode": 0,
+				"regionId":"成都市"
+			},
+			{
+				"corpId": "1235444",
+				"corpCode": "J51343648420",
+				"corpName": "会东县姜州镇金达利家电经营部",
+				"level": "1",
+				"corpFullId": "1.281.1000222",
+				"addUserName": "鹤鸣",
+				"addTime": "2020-3-23 13:15:55",
+				"statusCode": 0,
+				"regionId":"甘孜州"
+			},
+			{
+				"corpId": "1000222",
+				"corpCode": "2232424",
+				"corpName": "北川城区",
+				"level": "1",
+				"corpFullId": "1.281.1000222",
+				"addUserName": "鹤鸣",
+				"addTime": "2020-3-23 13:15:55",
+				"statusCode": 0,
+				"regionId":"甘孜州"
+			},
+			{
+				"corpId": "1000222",
+				"corpCode": "J51343648422",
+				"corpName": "木里县桥头手机销售店",
+				"level": "1",
+				"corpFullId": "1.281.1000222",
+				"addUserName": "鹤鸣",
+				"addTime": "2020-3-23 13:15:55",
+				"statusCode": 1,
+				"regionId":"甘孜州"
+			},
+			{
+				"corpId": "1000222",
+				"corpCode": "2232424",
+				"corpName": "北川城区",
+				"level": "1",
+				"corpFullId": "1.281.1000222",
+				"addUserName": "鹤鸣",
+				"addTime": "2020-3-23 13:15:55",
+				"statusCode": 1,
+				"regionId":"甘孜州"
+			},
+			{
+				"corpId": "123123",
+				"corpCode": "J51343648420",
+				"corpName": "会东县姜州镇金达利家电经营部",
+				"level": "1",
+				"corpFullId": "1.281.1000222",
+				"addUserName": "鹤鸣",
+				"addTime": "2020-3-23 13:15:55",
+				"statusCode": 1,
+				"regionId":"甘孜州"
+			},
+			{
+				"corpId": "1000222",
+				"corpCode": "2232424",
+				"corpName": "北川城区",
+				"level": "1",
+				"corpFullId": "1.281.1000222",
+				"addUserName": "鹤鸣",
+				"addTime": "2020-3-23 13:15:55",
+				"statusCode": 0,
+				"regionId":"绵阳市"
+			},
+			{
+				"corpId": "1000222",
+				"corpCode": "J51343648422",
+				"corpName": "木里县桥头手机销售店",
+				"level": "1",
+				"corpFullId": "1.281.1000222",
+				"addUserName": "鹤鸣",
+				"addTime": "2020-3-23 13:15:55",
+				"statusCode": 0
+			}  
+		],
+		"total": "10"
+	}
+}

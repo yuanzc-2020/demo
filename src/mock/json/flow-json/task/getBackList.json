@@ -1,0 +1,38 @@
+{
+    "success": true,
+    "message": "success",
+    "code": 200,
+    "timestamp": 1589699946346,
+    "result": [
+        {
+            "id": "42736",
+            "name": "一级审批",
+            "key": "sid-45BC0F3A-5805-49C6-B923-5340A6F0C383",
+            "description": null,
+            "executionId": "42728",
+            "assignee": null,
+            "owner": null,
+            "ownerUsername": null,
+            "procDefId": "leave:1:12529",
+            "procInstId": "42728",
+            "applyer": null,
+            "applyerUsername": null,
+            "category": null,
+            "priority": 0,
+            "deleteReason": "审批通过",
+            "comment": null,
+            "duration": 32714,
+            "workTime": null,
+            "createTime": "2019-08-06 17:44:49",
+            "startTime": "2019-08-06 17:44:49",
+            "endTime": "2019-08-06 17:45:21",
+            "dueTime": null,
+            "processName": null,
+            "routeName": null,
+            "businessKey": null,
+            "tableId": null,
+            "assignees": null,
+            "version": null
+        }
+    ]
+}

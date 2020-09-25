@@ -1,0 +1,97 @@
+{
+  "success": true,
+  "message": "success",
+  "code": 200,
+  "timestamp": 1582525223029,
+  "result": {
+    "content": [
+      {
+        "toOrgId": "51030000",
+        "toOrgName": "自贡电信分公司"
+      },
+      {
+        "toOrgId": "51040000",
+        "toOrgName": "攀枝花电信分公司"
+      },
+      {
+        "toOrgId": "51050000",
+        "toOrgName": "泸州电信分公司"
+      },
+      {
+        "toOrgId": "51060000",
+        "toOrgName": "德阳电信分公司"
+      },
+      {
+        "toOrgId": "51070000",
+        "toOrgName": "绵阳电信分公司"
+      },
+      {
+        "toOrgId": "51080000",
+        "toOrgName": "广元电信分公司"
+      },
+      {
+        "toOrgId": "51090000",
+        "toOrgName": "遂宁电信分公司"
+      },
+      {
+        "toOrgId": "51100000",
+        "toOrgName": "内江电信分公司"
+      },
+      {
+        "toOrgId": "51110000",
+        "toOrgName": "乐山电信分公司"
+      },
+      {
+        "toOrgId": "51130000",
+        "toOrgName": "南充电信分公司"
+      },
+      {
+        "toOrgId": "51150000",
+        "toOrgName": "宜宾电信分公司"
+      },
+      {
+        "toOrgId": "51160000",
+        "toOrgName": "广安电信分公司"
+      },
+      {
+        "toOrgId": "51300000",
+        "toOrgName": "达州电信分公司"
+      },
+      {
+        "toOrgId": "51310000",
+        "toOrgName": "雅安电信分公司"
+      },
+      {
+        "toOrgId": "51320000",
+        "toOrgName": "阿坝电信分公司"
+      },
+      {
+        "toOrgId": "51330000",
+        "toOrgName": "甘孜电信分公司"
+      },
+      {
+        "toOrgId": "51340000",
+        "toOrgName": "凉山电信分公司"
+      },
+      {
+        "toOrgId": "51370000",
+        "toOrgName": "巴中电信分公司"
+      },
+      {
+        "toOrgId": "51380000",
+        "toOrgName": "眉山电信分公司"
+      },
+      {
+        "toOrgId": "51390000",
+        "toOrgName": "资阳电信分公司"
+      },
+      {
+        "toOrgId": "51990000",
+        "toOrgName": "省电渠电信分公司"
+      }
+    ]
+  }
+}
+
+
+

@@ -1,0 +1,66 @@
+{
+    "success": true,
+    "code": 200,
+    "message": "success",
+    "timestamp": 1586502739157,
+    "result": {
+        "content": [
+            {
+                "corpType": 1,
+                "userId": "22000001",
+                "userName": "陈鹤鸣111111111",
+                "mobile": 13300002222,
+                "email": "9wetq0@163.net",
+                "addUserName": "sys_auth",
+                "addTime": "2020-04-01 17:02:46",
+                "corpId": "12474470603",
+                "corpName": "业务管理中心"
+            },
+            {
+                "corpType": 1,
+                "userId": "22000002",
+                "userName": "张飞军",
+                "mobile": 13300002222,
+                "email": "1rybyb@live.com",
+                "addUserName": "sys_auth",
+                "addTime": "2020-04-01 17:02:54",
+                "corpId": "12474470603",
+                "corpName": "成都市武侯区美讯达校园直销合作"
+            },
+            {
+                "corpType": 2,
+                "userId": "22000003",
+                "userName": "乌兰图雅",
+                "mobile": 13300002222,
+                "email": "r6u7xb4@yeah.net",
+                "addUserName": "sys_auth",
+                "addTime": "2020-04-01 17:04:59",
+                "corpId": "883372789088",
+                "corpName": "成都市武侯分公司城区公众直销"
+            },
+            {
+                "corpType": 2,
+                "userId": "22000005",
+                "userName": "张飞军2",
+                "mobile": 13300002222,
+                "email": "1rybyb@live.com",
+                "addUserName": "sys_auth",
+                "addTime": "2020-04-01 17:02:54",
+                "corpId": "124744703",
+                "corpName": "成都市武侯区美讯达校园"
+            },
+            {
+                "corpType": 3,
+                "userId": "22000006",
+                "userName": "乌兰图雅2",
+                "mobile": 13300002222,
+                "email": "r6u7xb4@yeah.net",
+                "addUserName": "sys_auth",
+                "addTime": "2020-04-01 17:04:59",
+                "corpId": "88337788",
+                "corpName": "成都市武侯分公司城区"
+            }
+        ],
+        "total": 5
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "success": true,
+    "message": "success",
+    "code": 0,
+    "timestamp": 1590989708777,
+    "result": {
+        "id": "1255025418294136832",
+        "createBy": "admin",
+        "createTime": "2020-04-28 14:45:51",
+        "updateBy": "admin",
+        "updateTime": "2020-05-08 23:50:31",
+        "delFlag": 0,
+        "title": "欢迎您注册账号使我查看使用须知",
+        "content": "<p style=\"text-align: center;\">X-Boot是很棒的Web前后端分离开发平台，开源版本请遵循GPL v3.0开源协议，不得闭源，商用需求请联系作者签署授权协议。</p><p style=\"text-align: center;\">捐赠获取完整版：<a href=\"http://xpay.exrick.cn/pay?xboot\" target=\"_blank\">立即去捐赠获取</a></p><p style=\"text-align: center;\"><img src=\"https://i.loli.net/2018/08/24/5b801c8652227.png\" style=\"max-width:150px;\"><br></p><p style=\"text-align: center;\">手机扫一扫支付</p><p style=\"text-align: center;\">获取商用授权：<a href=\"http://wpa.qq.com/msgrd?v=3&amp;uin=1012139570&amp;site=qq&amp;menu=yes\" target=\"_blank\">立即联系作者获取商用授权</a></p>",
+        "type": "系统公告",
+        "createSend": true,
+        "range": null,
+        "userIds": null
+    }
+}

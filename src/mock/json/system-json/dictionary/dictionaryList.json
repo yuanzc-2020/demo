@@ -1,0 +1,41 @@
+{
+	"success": true,
+	"message": "success",
+	"code": 200,
+	"timestamp": 1582525223029,
+	"result": {
+		"content": [
+			{
+				"id": 2,
+				"typeCode": "card_category",
+				"dictCode": "001",
+				"dictValue": "普通卡",
+				"statusCode": 0,
+				"addUserName": "系统管理员",
+				"addTime": "2020-6-1 17:08:03",
+				"description": "fhfh"
+			},
+			{
+				"id": 3,
+				"typeCode": "card_category",
+				"dictCode": "002",
+				"dictValue": "电子售卡",
+				"statusCode": 1,
+				"addUserName": "系统管理员",
+				"addTime": "2020-6-1 17:08:03",
+				"description": ""
+			},
+			{
+				"id": 4,
+				"typeCode": "card_category",
+				"dictCode": "003",
+				"dictValue": "虚拟卡",
+				"statusCode": 1,
+				"addUserName": "系统管理员",
+				"addTime": "2020-6-1 17:08:03",
+				"description": ""
+			}
+		],
+		"total": 3
+	}
+}

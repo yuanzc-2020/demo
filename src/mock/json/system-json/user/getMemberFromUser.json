@@ -1,0 +1,35 @@
+{
+    "success": true,
+    "code": 0,
+    "message": "ok",
+    "timestamp": 1544151187152,
+    "result": {
+      "content": [
+        {
+          "userCorpId": 331,
+          "userCorpName": "成都市新华标杆营业厅内部员工渠道",
+          "userId": 1111,
+          "userName": "梁松"
+        } ,
+        {
+            "userCorpId": 331,
+            "userCorpName": "成都市新华标太升南路标杆厅",
+            "userId": 2222,
+            "userName": "陈和明"
+          } ,
+          {
+            "userCorpId": 331,
+            "userCorpName": "成都市新华标杆营业厅内部员工渠道",
+            "userId": 3333,
+            "userName": "赵有"
+          } ,
+          {
+            "userCorpId": 331,
+            "userCorpName": "成都市新华标太升南路标杆厅",
+            "userId": 4444,
+            "userName": "姚春燕"
+          } 
+      ],
+      "total": 5
+    }
+  }

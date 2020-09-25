@@ -1,0 +1,21 @@
+{
+    "success": true,
+    "message": "success",
+    "code": 200,
+    "timestamp": 1582525223029,
+    "result": {
+        "content": [
+            {
+                "finauditId": "51010000_财务_200320001",
+                "accountCode": "1124 营业款结算",
+                "costCenter": "A5101",
+                "profitCenter": "A510115",
+                "abstract": "成都电信分公司转成都业务管理中心售卡实收款",
+                "borrow": "借",
+                "borrowMoney": "¥3,328,610.00",
+                "creditMoney": "¥0.00"
+            }
+        ],
+        "total": 1
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "success": true,
+    "message": "success",
+    "code": 200,
+    "timestamp": 1590981338885,
+    "result": {
+        "content": [
+            {
+                "id": "1255025418294136832",
+                "createBy": "admin",
+                "createTime": "2020-04-28 14:45:51",
+                "updateBy": "admin",
+                "updateTime": "2020-05-08 23:50:31",
+                "delFlag": 0,
+                "title": "欢迎您注册账号使用X-Boot 点我查看使用须知",
+                "content": "<p style=\"text-align: center;\">X-Boot是很棒的Web前后端分离开发平台，开源版本请遵循GPL v3.0开源协议，不得闭源，商用需求请联系作者签署授权协议。</p><p style=\"text-align: center;\">捐赠获取完整版：<a href=\"http://xpay.exrick.cn/pay?xboot\" target=\"_blank\">立即去捐赠获取</a></p><p style=\"text-align: center;\"><img src=\"https://i.loli.net/2018/08/24/5b801c8652227.png\" style=\"max-width:150px;\"><br></p><p style=\"text-align: center;\">手机扫一扫支付</p><p style=\"text-align: center;\">获取商用授权：<a href=\"http://wpa.qq.com/msgrd?v=3&amp;uin=1012139570&amp;site=qq&amp;menu=yes\" target=\"_blank\">立即联系作者获取商用授权</a></p>",
+                "type": "系统公告",
+                "createSend": true,
+                "range": null,
+                "userIds": null
+            },
+            {
+                "id": "124744706050494464",
+                "createBy": "admin",
+                "createTime": "2019-03-31 19:43:17",
+                "updateBy": "admin",
+                "updateTime": "2020-02-26 15:53:41",
+                "delFlag": 0,
+                "title": "您收到了一个新的被委托待办工作流任务，赶快去处理查看吧",
+                "content": "<p>您收到了一个新的被委托待办工作流任务，赶快去”工作流程-我的待办“处理查看吧</p>",
+                "type": "工作流",
+                "createSend": false,
+                "range": null,
+                "userIds": null
+            },
+            {
+                "id": "124744392996032512",
+                "createBy": "admin",
+                "createTime": "2019-03-31 19:42:02",
+                "updateBy": "admin",
+                "updateTime": "2019-03-31 19:42:02",
+                "delFlag": 0,
+                "title": "您有一个工作流申请已被驳回，赶快去处理查看吧",
+                "content": "<p>您有一个工作流申请已已被驳回，赶快去”工作流程-我的申请“处理查看吧</p>",
+                "type": "工作流",
+                "createSend": null,
+                "range": null,
+                "userIds": null
+            },
+            {
+                "id": "124743474544119808",
+                "createBy": "admin",
+                "createTime": "2019-03-31 19:38:23",
+                "updateBy": "admin",
+                "updateTime": "2019-03-31 19:38:23",
+                "delFlag": 0,
+                "title": "您有一个工作流申请已审批通过，赶快去处理查看吧",
+                "content": "<p>您有一个工作流申请已审批通过，赶快去”工作流程-我的申请“处理查看吧</p>",
+                "type": "工作流",
+                "createSend": null,
+                "range": null,
+                "userIds": null
+            },
+            {
+                "id": "124717033060306944",
+                "createBy": "admin",
+                "createTime": "2019-03-31 17:53:19",
+                "updateBy": "admin",
+                "updateTime": "2019-03-31 17:53:19",
+                "delFlag": 0,
+                "title": "您收到了一条新的工作流待办消息，赶快去处理查看吧",
+                "content": "<p>您收到了一条新的工作流待办消息，赶快去”工作流程-我的待办“处理查看吧</p>",
+                "type": "工作流",
+                "createSend": null,
+                "range": null,
+                "userIds": null
+            }
+        ],
+        "total": 5
+    }
+}

@@ -1,0 +1,120 @@
+{
+	"success": true,
+	"message": "success",
+	"code": 200,
+	"timestamp": 1582525223029,
+	"result": {
+		"content": [
+			{
+				"userId": "jiequan",
+				"userName": "捷全",
+				"orgId": "100012318",
+				"orgName": "温江西大街营业厅-捷全",
+				"statusCode": 0,
+				"addTime": "2020-1-15 16:45:03",
+				"updateTime": "2020-3-15 16:45:03",
+				"roles": [
+					{
+						"roleId": "111"
+					},
+					{
+						"roleId": "222"
+					}
+				]
+			},
+			{
+				"userId": "yingpu",
+				"userName": "英普",
+				"orgId": "5101241109601",
+				"orgName": "成都市青羊区金福北路社区营业厅（英普）网格主厅",
+				"statusCode": 0,
+				"addTime": "2020-1-15 16:45:03",
+				"updateTime": "2020-3-15 16:45:03",
+				"roles": [
+					{
+						"roleId": "111"
+					},
+					{
+						"roleId": "222"
+					}
+				]
+			},
+			{
+				"userId": "wangmz",
+				"userName": "王麻子",
+				"orgId": "93240036",
+				"orgName": "新都区分公司",
+				"statusCode": 1,
+				"addTime": "2020-1-15 16:45:03",
+				"updateTime": "2020-3-15 16:45:03",
+				"roles": [
+					{
+						"roleId": "111"
+					},
+					{
+						"roleId": "222"
+					}
+				]
+			},
+			{
+				"userId": "zhagns",
+				"userName": "战士",
+				"orgId": "932006",
+				"orgName": "锦江南区分公司",
+				"statusCode": 1,
+				"addTime": "2020-1-15 16:45:03",
+				"updateTime": "2020-3-15 16:45:03",
+				"roles": [
+					{
+						"roleId": "111"
+					},
+					{
+						"roleId": "222"
+					}
+				]
+			},
+			{
+				"userId": "dashen",
+				"userName": "大神",
+				"orgId": "931986",
+				"orgName": "青羊区分公司",
+				"statusCode": 1,
+				"addTime": "2020-1-15 16:45:03",
+				"updateTime": "2020-3-15 16:45:03",
+				"roles": [
+					{
+						"roleId": "111"
+					},
+					{
+						"roleId": "222"
+					}
+				]
+			}
+		],
+		"pageable": {
+			"sort": {
+				"sorted": true,
+				"unsorted": false,
+				"empty": false
+			},
+			"pageSize": 3,
+			"pageNumber": 0,
+			"offset": 0,
+			"paged": true,
+			"unpaged": false
+		},
+		"totalElements": 5,
+		"totalPages": 1,
+		"last": true,
+		"sort": {
+			"sorted": true,
+			"unsorted": false,
+			"empty": false
+		},
+		"numberOfElements": 5,
+		"first": true,
+		"size": 10,
+		"number": 0,
+		"empty": false
+	}
+}

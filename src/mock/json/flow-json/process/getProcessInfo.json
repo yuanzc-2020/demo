@@ -1,0 +1,16 @@
+{
+    "success": true,
+    "message": "success",
+    "code": 200,
+    "timestamp": 1589636790961,
+    "result": {
+        "procDefId": "leave:1:12529",
+        "name": "请假",
+        "processKey": "leave",
+        "routeName":"leave",
+        "version": 1, 
+        "description": "员工请假申请",
+        "latest": true,
+        "statusCode": 1
+    }
+}

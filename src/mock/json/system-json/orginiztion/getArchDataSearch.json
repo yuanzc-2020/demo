@@ -1,0 +1,32 @@
+{
+    "success": true,
+    "message": "success",
+    "code": 0,
+    "timestamp": 1582525223029,
+    "result": [
+        {
+            "id": "20010",
+            "title": "成都市公司架构体系",
+            "corpId": "1000222", 
+            "statusCode": 0 
+        },
+        {
+            "id": "20010",
+            "title": "南充市公司架构体系",
+            "corpId": "1000222", 
+            "statusCode": 0
+        },
+        {
+            "id": "20010",
+            "title": "德阳市公司架构体系",
+            "corpId": "1000222", 
+            "statusCode": 1 
+        },
+        {
+            "id": "20010",
+            "title": "内江市公司架构体系",
+            "corpId": "1000222", 
+            "statusCode": 1 
+        }
+    ]
+}

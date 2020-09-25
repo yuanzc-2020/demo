@@ -1,0 +1,91 @@
+{
+    "success": true,
+    "code": 0,
+    "message": "success",
+    "timestamp": 1592393286451,
+    "result": {
+        "content": [{
+                "allotId": "SC@DB20200608000010",
+                "amount": 1730,
+                "toCorpId": 51380000,
+                "toCorpName": "眉山",
+                "addUserName": "sys_anno",
+                "addTime": "2020-06-15 08:23:30",
+                "statusCode": 1000
+            },
+            {
+                "allotId": "SC@DB20200608000009",
+                "amount": 2730,
+                "toCorpId": 51380000,
+                "toCorpName": "眉山",
+                "addUserName": "sys_anno",
+                "addTime": "2020-06-15 08:23:08",
+                "statusCode": 1000
+            },
+            {
+                "allotId": "SC@DB20200608000008",
+                "amount": 2430,
+                "toCorpId": 51380000,
+                "toCorpName": "眉山",
+                "addUserName": "sys_anno",
+                "addTime": "2020-06-15 08:21:51",
+                "statusCode": 1000
+            },
+            {
+                "allotId": "SC@DB20200608000007",
+                "amount": 3030,
+                "toCorpId": 51380000,
+                "toCorpName": "眉山",
+                "addUserName": "sys_anno",
+                "addTime": "2020-06-15 08:20:36",
+                "statusCode": 1000
+            },
+            {
+                "allotId": "SC@DB20200608000006",
+                "amount": 3030,
+                "toCorpId": 51380000,
+                "toCorpName": "眉山",
+                "addUserName": "sys_anno",
+                "addTime": "2020-06-15 08:18:27",
+                "statusCode": 1000
+            },
+            {
+                "allotId": "SC@DB20200608000005",
+                "amount": 3000,
+                "toCorpId": 51320000,
+                "toCorpName": "阿坝",
+                "addUserName": "sys_anno",
+                "addTime": "2020-06-15 08:17:08",
+                "statusCode": 1000
+            },
+            {
+                "allotId": "SC@DB20200608000004",
+                "amount": 1500,
+                "toCorpId": 51320000,
+                "toCorpName": "阿坝",
+                "addUserName": "sys_anno",
+                "addTime": "2020-06-15 08:14:54",
+                "statusCode": 1000
+            },
+            {
+                "allotId": "SC@DB20200608000003",
+                "amount": 1400,
+                "toCorpId": 51090000,
+                "toCorpName": "遂宁",
+                "addUserName": "sys_anno",
+                "addTime": "2020-06-15 08:12:32",
+                "statusCode": 1000
+            },
+            {
+                "allotId": "SC@DB20200608000002",
+                "amount": 1400,
+                "toCorpId": 51040000,
+                "toCorpName": "攀枝花",
+                "addUserName": "sys_anno",
+                "addTime": "2020-06-15 08:11:36",
+                "statusCode": 1004
+            }
+        ],
+        "total": 9
+    }
+}

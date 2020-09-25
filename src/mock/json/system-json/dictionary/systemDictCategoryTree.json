@@ -1,0 +1,45 @@
+{
+	"success": true,
+	"code": 0,
+	"message": "success",
+	"timestamp": 1587866726201,
+	"result": {
+		"content": [
+			{
+				"id": 1,
+				"title": "卡种类",
+				"code": "card_category",
+				"statusCode": 1,
+				"description": null
+			},
+			{
+				"id": 5,
+				"title": "卡功能类型",
+				"code": "card_features",
+				"statusCode": 1,
+				"description": null
+			},
+			{
+				"id": 8,
+				"title": "归属网络",
+				"code": "belongingnet",
+				"statusCode": 1,
+				"description": null
+			},
+			{
+				"id": 12,
+				"title": "调拨状态",
+				"code": "card_allot_status",
+				"statusCode": 1,
+				"description": null
+			},
+			{
+				"id": 14,
+				"title": "售卡状态",
+				"code": "card_sell",
+				"statusCode": 1,
+				"description": null
+			}
+		]
+	}
+}

@@ -1,0 +1,91 @@
+{
+	"success": true,
+	"message": "success",
+	"code": 200,
+	"timestamp": 1582525223029,
+	"result": {
+		"content": [
+			{   
+				"accountId":"11",
+				"accountType": "10",
+				"loginName": "zhagnsan",
+				"accountName": "张三",
+				"mobile": "13322223333",
+				"email": "123@qq.com",
+				"onlock": "是",
+				"statusCode": "0",
+				"addTime": "2020-1-15 16:45:03",
+				"loginTimes":"200",
+				"firstLoginTime":"2020-1-15 16:45:03",
+				"lastLoginTime":"2020-3-15 16:45:03",
+				"passwordExpireDate":"2020-5-15 16:45:03",
+				"lastPasswordUpdateTime":"2020-3-15 16:45:03"
+			},
+			{
+				"accountId":"12",
+				"accountType": "10",
+				"loginName": "lisi",
+				"accountName": "李四",
+				"mobile": "13322223333",
+				"email": "123@qq.com",
+				"onlock": "是",
+				"statusCode": "0",
+				"addTime": "2020-3-15 16:45:03",
+				"loginTimes":"200",
+				"firstLoginTime":"2020-1-15 16:45:03",
+				"lastLoginTime":"2020-3-15 16:45:03",
+				"passwordExpireDate":"2020-5-15 16:45:03",
+				"lastPasswordUpdateTime":"2020-3-15 16:45:03"
+			} ,
+			{
+				"accountId":"13",
+				"accountType": "10",
+				"loginName": "wagnwu",
+				"accountName": "王五",
+				"mobile": "13322223333",
+				"email": "123@qq.com",
+				"onlock": "是",
+				"statusCode": "1",
+				"addTime": "2020-3-15 16:45:03",
+				"loginTimes":"200",
+				"firstLoginTime":"2020-1-15 16:45:03",
+				"lastLoginTime":"2020-3-15 16:45:03",
+				"passwordExpireDate":"2020-5-15 16:45:03",
+				"lastPasswordUpdateTime":"2020-3-15 16:45:03"
+			} ,
+			{
+				"accountId":"14",
+				"accountType": "20",
+				"loginName": "liqun",
+				"accountName": "利群",
+				"mobile": "13322223333",
+				"email": "123@qq.com",
+				"onlock": "是",
+				"statusCode": "1",
+				"addTime": "2020-3-15 16:45:03",
+				"loginTimes":"200",
+				"firstLoginTime":"2020-1-15 16:45:03",
+				"lastLoginTime":"2020-3-15 16:45:03",
+				"passwordExpireDate":"2020-5-15 16:45:03",
+				"lastPasswordUpdateTime":"2020-3-15 16:45:03"
+			} ,
+			{
+				"accountId":"15",
+				"accountType": "30",
+				"loginName": "gulou",
+				"accountName": "鼓楼南街厅",
+				"mobile": "13322223333",
+				"email": "123@qq.com",
+				"onlock": "是",
+				"statusCode": "-1",
+				"addTime": "2020-3-15 16:45:03",
+				"loginTimes":"200",
+				"firstLoginTime":"2020-1-15 16:45:03",
+				"lastLoginTime":"2020-3-15 16:45:03",
+				"passwordExpireDate":"2020-5-15 16:45:03",
+				"lastPasswordUpdateTime":"2020-3-15 16:45:03"
+			} 
+		], 
+		"total": 5  
+	}
+}

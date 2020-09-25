@@ -1,0 +1,66 @@
+{
+	"success": true,
+	"message": "success",
+	"code": 0,
+	"timestamp": 1582525223029,
+	"result": {
+		"content": [{
+			"channelId": "1000222",
+			"channelName": "温江锦泉街社区厅-建元",
+			"channelNbr": "5101141034775",
+			"corpId": "112",
+			"corpName": "青羊分公司",
+			"agentCorpId": "1324",
+			"agentCorpName": "温江建元代理商公司",
+			"regionId ": "100100",
+			"controlType": 20,
+			"pickupType": 1,
+			"updateTime": "2020-3-23 13:15:55",
+			"addTime": "2020-3-23 13:15:55",
+			"statusCode": 1
+		}, {
+			"channelId": "1000222",
+			"channelName": "温江锦泉街社区厅-建元",
+			"channelNbr": "5101141034775",
+			"corpId": "112",
+			"corpName": "青羊分公司",
+			"agentCorpId": "1324",
+			"agentCorpName": "温江建元代理商公司",
+			"regionId ": "100100",
+			"controlType": 10,
+			"pickupType": 0,
+			"updateTime": "2020-3-23 13:15:55",
+			"addTime": "2020-3-23 13:15:55",
+			"statusCode": 1
+		}, {
+			"channelId": "1000222",
+			"channelName": "温江锦泉街社区厅-建元",
+			"channelNbr": "5101141034775",
+			"corpId": "112",
+			"corpName": "青羊分公司",
+			"agentCorpId": "1324",
+			"agentCorpName": "温江建元代理商公司",
+			"regionId ": "100100",
+			"controlType": 20,
+			"pickupType": 1,
+			"updateTime": "2020-3-23 13:15:55",
+			"addTime": "2020-3-23 13:15:55",
+			"statusCode": 1
+		}, {
+			"channelId": "1000222",
+			"channelName": "温江锦泉街社区厅-建元",
+			"channelNbr": "5101141034775",
+			"corpId": "112",
+			"corpName": "青羊分公司",
+			"agentCorpId": "1324",
+			"agentCorpName": "温江建元代理商公司",
+			"regionId ": "100100",
+			"controlType": 10,
+			"pickupType": 0,
+			"updateTime": "2020-3-23 13:15:55",
+			"addTime": "2020-3-23 13:15:55",
+			"statusCode": 1
+		}],
+		"total": "10"
+	}
+}

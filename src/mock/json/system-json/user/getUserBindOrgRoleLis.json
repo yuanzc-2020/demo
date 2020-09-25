@@ -1,0 +1,41 @@
+{
+	"success": true,
+	"message": "success",
+	"code": 200,
+	"timestamp": 1582525223029,
+	"result": {
+		"content": [
+			{
+				"roleId": "111",
+				"roleName": "领卡审批",
+				"description": "保存完成之后之后我们再改变其visible属性，将其隐藏起来"
+			},
+			{
+				"roleId": "222",
+				"roleName": "财务稽核啊 啊",
+				"description": "保存完成之后之后我们再改变其visible属性，将其隐藏起来"
+			},
+			{
+				"roleId": "333",
+				"roleName": "流程代码初始化",
+				"description": ""
+			},
+			{
+				"roleId": "444",
+				"roleName": "啊啊啊啊",
+				"description": "关于drawer的显示，其实就是默认设置为false，当需要进行展示的时候就改变它的visible属性"
+			},
+			{
+				"roleId": "555",
+				"roleName": "来啊 打我啊",
+				"description": "关于drawer的显示，其实就是默认设置为false，当需要进行展示的时候就改变它的visible属性"
+			},
+			{
+				"roleId": "666",
+				"roleName": "嘎嘎嘎嘎",
+				"description": "关于drawer的显示，其实就是默认设置为false，当需要进行展示的时候就改变它的visible属性"
+			}
+		],
+		"total": 5
+	}
+}

@@ -1,0 +1,14 @@
+{
+    "success": true,
+    "message": "success",
+    "code": 0,
+    "timestamp": 1589632678171,
+    "result": {
+        "id": "23423423423",
+        "title": "一级审批",
+        "type": 1,
+        "roles":  [],
+        "users": [], 
+        "expand": true
+    }
+}

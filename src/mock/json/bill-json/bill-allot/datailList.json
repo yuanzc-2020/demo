@@ -1,0 +1,31 @@
+{
+	"success": true,
+	"message": "success",
+	"code": 200,
+	"timestamp": 1582525223029,
+	"result": {
+		"content": [
+			{
+				"toCorpId": "281",
+				"allotId": "1",
+				"itemId": "517001",
+				"cardTypeId": "UIM177_0",
+				"cardTypeName": "177_白卡",
+				"cardThemeId": "GNT-QN-2006NX15",
+				"cardThemeName": "继往开来长征路",
+				"amount": "10"
+			},
+			{
+				"toCorpId": "281",
+				"allotId": "2",
+				"itemId": "517002",
+				"cardTypeId": "UIM180_0",
+				"cardTypeName": "180_白卡",
+				"cardThemeId": "GNT-QN-2006NX11",
+				"cardThemeName": "17900全能打",
+				"amount": "12"
+			}
+		],
+		"total": 2
+	}
+}

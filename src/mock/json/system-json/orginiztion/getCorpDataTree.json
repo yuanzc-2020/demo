@@ -1,0 +1,59 @@
+{
+	"success": true,
+	"message": "success",
+	"code": 200,
+	"timestamp": 1582525223029,
+	"result": {
+		"content": [{
+			"title": "四川省公司",
+			"id": "111",
+			"pid": 0,
+			"expand": true, 
+			"statusCode": 1,
+			"children": [{
+					"title": "成都",
+					"id": "222",
+					"pid": 111,
+					"leve1": 2,
+					"statusCode": 0,
+					"children": [{
+							"title": "双流区",
+							"id": "222",
+							"pid": 111,
+							"leve1": 3,
+							"statusCode": 0
+						},
+						{
+							"title": "崇州",
+							"id": "333",
+							"pid": 111,
+							"leve1": 3,
+							"statusCode": 1
+						},
+						{
+							"title": "龙泉",
+							"id": "444",
+							"pid": 111,
+							"leve1": 3,
+							"statusCode": 1
+						}
+					]
+				},
+				{
+					"title": "德阳",
+					"id": "333",
+					"pid": 111,
+					"leve1": 2,
+					"statusCode": 1
+				},
+				{
+					"title": "自贡",
+					"id": "444",
+					"pid": 111,
+					"leve1": 2,
+					"statusCode": 1
+				}
+			]
+		}]
+	}
+}

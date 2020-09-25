@@ -1,0 +1,49 @@
+{
+    "success": true,
+    "message": "success",
+    "code": 200,
+    "timestamp": 1582525223029,
+    "result": {
+        "content": [
+            {
+                "authzId": "11",
+                "authzName": "授权组",
+				"ownerId": "123123",
+				"ownerName": "审批角色", 
+				"ownerType": "1",
+				"permissionId": "11",
+				"permissionName": "领卡管理菜单", 
+                "statusCode": 1,
+                "addUserName": "管理员",
+                "addTime": "2020-01-17 10:57:21" 
+            } ,
+            {
+                "authzId": "1102",
+                "authzName": "授权组",
+				"ownerId": "123123",
+				"ownerName": "审批角色", 
+				"ownerType": "1",
+				"permissionId": "1102",
+				"permissionName": "领卡管理菜单", 
+                "statusCode": 1,
+                "addUserName": "管理员",
+                "addTime": "2020-01-17 10:57:21" 
+            } 
+            ,
+            {
+                "authzId": "12",
+                "authzName": "授权组",
+				"ownerId": "123123",
+				"ownerName": "审批角色", 
+				"ownerType": "1",
+				"permissionId": "12",
+				"permissionName": "领卡管理菜单", 
+                "statusCode": 1,
+                "addUserName": "管理员",
+                "addTime": "2020-01-17 10:57:21" 
+            } 
+        ],
+        "total": 1
+    }
+}
+ 

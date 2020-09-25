@@ -1,0 +1,29 @@
+{
+	"success": true,
+	"message": "success",
+	"code": 200,
+	"timestamp": 1582525223029,
+	"result":  [
+			{
+				"dictCode": "1000",
+				"dictValue": "未提交"
+			},
+			{
+				"dictCode": "1001",
+				"dictValue": "审核中"
+			},
+			{
+				"dictCode": "1002",
+				"dictValue": "审核完成"
+			},
+			{
+				"dictCode": "1003",
+				"dictValue": "已作废"
+			},
+			{
+				"dictCode": "1004",
+				"dictValue": "审核不通过"
+			}
+		]
+	 
+}

@@ -1,0 +1,80 @@
+{
+	"success": true,
+	"message": "success",
+	"code": 0,
+	"timestamp": 1589612546992,
+	"result": [
+		{
+			"id": "sid-6DA999C4-5AF5-477A-8E66-FD08DE734BE9",
+			"title": "开始",
+			"type": 0,
+			"roles": [
+				111,
+				222,
+				333,
+				444
+			],
+			"users": [
+				111,
+				222,
+				333,
+				444
+			],
+			"expand": true
+		},
+		{
+			"id": "sid-45BC0F3A-5805-49C6-B923-5340A6F0C383",
+			"title": "一级审批",
+			"type": 1,
+			"roles": [
+				111,
+				222,
+				333,
+				444
+			],
+			"users": [
+				111,
+				222,
+				333,
+				444
+			],
+			"expand": true
+		},
+		{
+			"id": "sid-642EE84D-4733-43F7-B47C-C1D1360B2EE3",
+			"title": "二级审批",
+			"type": 1,
+			"roles": [
+				111,
+				222,
+				333,
+				444
+			],
+			"users": [
+				111,
+				222,
+				333,
+				444
+			],
+			"expand": true
+		},
+		{
+			"id": "sid-AB9EC0D4-BDB7-4D3B-A1E4-1DA529353769",
+			"title": "结束",
+			"type": 2,
+			"roles": [
+				111,
+				222,
+				333,
+				444
+			],
+			"users": [
+				111,
+				222,
+				333,
+				444
+			],
+			"expand": true
+		}
+	]
+}

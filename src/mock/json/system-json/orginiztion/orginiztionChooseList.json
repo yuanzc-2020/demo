@@ -1,0 +1,41 @@
+{
+	"success": true,
+	"message": "success",
+	"code": 200,
+	"timestamp": 1582525223029,
+	"result": {
+		"content": [
+			{
+				"orgType": "10",
+				"orgId": "11111",
+				"orgCode": "51030000",
+				"orgName": "自贡电信分公司adfdsfasdfasdfasdfadsfadsfad"
+			},
+			{
+				"orgType": "20",
+				"orgId": "11111",
+				"orgCode": "51030000",
+				"orgName": "自贡电信分公司"
+			},
+			{
+				"orgType": "30",
+				"orgId": "11111",
+				"orgCode": "51030000",
+				"orgName": "自贡电信分公司asdfadsssssssssssssssssssssssss"
+			},
+			{
+				"orgType": "10",
+				"orgId": "11111",
+				"orgCode": "51030000",
+				"orgName": "自贡电信分公司"
+			},
+			{
+				"orgType": "20",
+				"orgId": "11111",
+				"orgCode": "51030000",
+				"orgName": "自贡电信分公司"
+			}
+		],
+		"total": 5
+	}
+}

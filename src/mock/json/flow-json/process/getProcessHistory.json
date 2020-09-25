@@ -1,0 +1,56 @@
+{
+    "success": true,
+    "message": "success",
+    "code": 200,
+    "timestamp": 1589635677232,
+    "result": [
+        {
+            "id": "42673",
+            "name": "一级审批",
+            "key": "sid-F6FC66BD-D728-4B18-8214-D033087BDFE0",
+            "assignee": null,
+            "procDefId": "leave2:2:37551",
+            "procInstId": "42665",
+            "priority": 0,
+            "deleteReason": "审批通过",
+            "comment": "",
+            "duration": 9008,
+            "workTime": null,
+            "createTime": "2019-07-26 21:20:07",
+            "startTime": "2019-07-26 21:20:07",
+            "endTime": "2019-07-26 21:20:16",
+            "dueTime": null,
+            "assignees": [
+                {
+                    "nickname": "管理员",
+                    "username": "admin",
+                    "isExecutor": true
+                }
+            ]
+        },
+        {
+            "id": "42679",
+            "name": "四级审批",
+            "key": "sid-E6BF660A-1779-45F4-9A5D-9348D938EB3E",
+            "assignee": null,
+            "procDefId": "leave2:2:37551",
+            "procInstId": "42665",
+            "priority": 0,
+            "deleteReason": "审批通过",
+            "comment": "评审  通过了啊",
+            "duration": 560551367,
+            "workTime": null,
+            "createTime": "2019-07-26 21:20:16",
+            "startTime": "2019-07-26 21:20:16",
+            "endTime": "2019-08-02 09:02:47",
+            "dueTime": null,
+            "assignees": [
+                {
+                    "nickname": "游客1",
+                    "username": "test",
+                    "isExecutor": true
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "success": true,
+    "message": "success",
+    "code": 200,
+    "timestamp": 1582525223029,
+    "result": {
+        "content": [
+            {
+                "channelId": 12474470605042923,
+                "channelName": "成都市四川旅游学院龙泉校区校园直销合作（不结算专项）"
+            },
+            {
+                "channelId": 124744706050444564,
+                "channelName": "[280001406]成都市武侯分公司城区公众直销"
+            },
+            {
+                "channelId": 1247447060456464,
+                "channelName": "[100083801]成都市武侯区美讯达校园直销合作"
+            }
+        ]
+    }
+}

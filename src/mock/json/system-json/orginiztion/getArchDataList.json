@@ -1,0 +1,51 @@
+{
+    "success": true,
+    "message": "success",
+    "code": 0,
+    "timestamp": 1582525223029,
+    "result": {
+        "content": [
+            {
+                "archId": "20010",
+                "archName": "成都市公司架构体系",
+                "corpId": "1000222",
+                "corpName": "成都市",
+                "statusCode": 1,
+                "addUserName": "鹤鸣",
+                "addTime": "2020-3-23 13:15:55",
+                "description": "s我是一个米搜狐描述啊"
+            },
+            {
+                "archId": "20010",
+                "archName": "南充市公司架构体系",
+                "corpId": "1000222",
+                "corpName": "南充市",
+                "statusCode": 1,
+                "addUserName": "鹤鸣",
+                "addTime": "2020-3-23 13:15:55",
+                "description": "s我是一个米搜狐描述啊"
+            },
+            {
+                "archId": "20010",
+                "archName": "德阳市公司架构体系",
+                "corpId": "1000222",
+                "corpName": "德阳市",
+                "statusCode": 1,
+                "addUserName": "鹤鸣",
+                "addTime": "2020-3-23 13:15:55",
+                "description": "s我是一个米搜狐描述啊"
+            },
+            {
+                "archId": "20010",
+                "archName": "内江市公司架构体系",
+                "corpId": "1000222",
+                "corpName": "内江市",
+                "statusCode": 1,
+                "addUserName": "鹤鸣",
+                "addTime": "2020-3-23 13:15:55",
+                "description": "s我是一个米搜狐描述啊"
+            }
+        ],
+        "total": "4"
+    }
+}

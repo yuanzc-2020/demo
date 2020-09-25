@@ -1,0 +1,71 @@
+{
+	"success": true,
+	"message": "success",
+	"code": 0,
+	"timestamp": 1589468198135,
+	"result": {
+		"content": [
+			{
+				"categoryId": "47514",
+				"categoryName": "分公司号卡流程",
+				"modelId": "47514",
+				"addUserName": "admin",
+				"addTime": "2020-01-24 17:07:16",
+				"updateBy": "admin",
+				"updateTime": "2020-05-14 22:53:06",
+				"delFlag": 0,
+				"modelName": "休假请求流程",
+				"modelKey": "leave4",
+				"version": 154,
+				"description": "我顶顶顶顶",
+				"statusCode": 1
+			},
+			{
+				"categoryId": "47514",
+				"categoryName": "分公司号卡流程",
+				"modelId": "37501",
+				"addUserName": "admin",
+				"addTime": "2020-01-24 17:07:16",
+				"updateBy": "admin",
+				"updateTime": "2020-05-11 15:48:17",
+				"delFlag": 0,
+				"modelName": "test1",
+				"modelKey": "test",
+				"version": 378,
+				"description": "test1",
+				"statusCode": 1
+			},
+			{
+				"categoryId": "47514",
+				"categoryName": "分公司号卡流程",
+				"modelId": "12618",
+				"addUserName": "admin",
+				"addTime": "2020-01-24 17:07:16",
+				"updateBy": "admin",
+				"updateTime": "2020-05-07 12:11:15",
+				"delFlag": 0,
+				"modelName": "x-boot22",
+				"modelKey": "testact",
+				"version": 152,
+				"description": "hello",
+				"statusCode": 1
+			},
+			{
+				"categoryId": "47514",
+				"categoryName": "分公司号卡流程",
+				"modelId": "10001",
+				"addUserName": "admin",
+				"addTime": "2020-01-24 17:07:16",
+				"updateBy": "admin",
+				"updateTime": "2020-05-14 16:53:07",
+				"delFlag": 1,
+				"modelName": "审批流222222",
+				"modelKey": "任务流程",
+				"version": 161,
+				"description": "4.0",
+				"statusCode": 0
+			}
+		],
+		"total": 4
+	}
+}
