@@ -10,7 +10,7 @@
 			align="middle"
 			@keydown.enter.native="submitLogin"
 		>
-			<Col style="width: 368px; margin: 10px">
+			
 				<Row>
 					<Row v-model="tabName">
 						<span class="title-name">Login</span>
@@ -88,7 +88,7 @@
 						>
 					</Row>
 				</Row>
-			</Col>
+			
 		</Row>
 		<row type="flex" justify="center" align="middle">
 			<Footer />

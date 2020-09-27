@@ -10,7 +10,11 @@ const Mock = require("mockjs")
 console.log('前端 mock 环境启动成功')
 // 统一地址管理 
 import systemApiUrl from "../api/apiUrl/systemApiUrl.js";
+
 let base = '/invoice';
+
+//引入billApiUrl 下面才能调用
+import billApiUrl from "../api/apiUrl/billApiUrl.js"
 
 // 格式： Mock.mock( url, post/get , 返回的数据)；
 
@@ -18,6 +22,8 @@ let base = '/invoice';
 Mock.mock(base + systemApiUrl.API.rsa.key, 'get', require('./json/rsaKey'));
 // 用户登录
 Mock.mock(base + systemApiUrl.API.login.doLogin, 'post', require('./json/login'));
+
+
 // 用户退出
 Mock.mock(base + systemApiUrl.API.login.logout, 'post', require('./json/login'));
 // 用户切换
@@ -34,6 +40,12 @@ Mock.mock(base + systemApiUrl.API.sms.sendLoginSms, 'post', require('./json/logi
 Mock.mock(base + systemApiUrl.API.sms.sendResetSms, 'post', require('./json/login'));
 // 通过手机重置密码
 Mock.mock(base + systemApiUrl.API.login.resetByMobile, 'post', require('./json/login'));
+
+
+// 调拨单列表
+Mock.mock(base + billApiUrl.API.cardBillAllot.list, 'get', require('./json/bill-json/bill-allot/getAllotList.json'));
+
+
 
 
 Mock.mock(RegExp(base + systemApiUrl.API.login.getPrincipalList + ".*"), 'get', require('./json/json-common/getPrincipalList'))

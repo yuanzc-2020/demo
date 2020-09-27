@@ -313,6 +313,7 @@ export default {
 			this.setDateDeflut();
 			this.getDataList();
 			this.getStatusCodes();
+			this.getAllList();
 		},
 		fatherMethod() {
 			this.handleSearch();
@@ -357,8 +358,10 @@ export default {
 			this.searchForm.pageSize = v;
 			this.getDataList();
 		},
+
+		// 修改this.loading = true;
 		getDataList() {
-			this.loading = true;
+			this.loading = false;
 			getAllotList(this.globalUtil.filterParams(this.searchForm)).then(
 				(res) => {
 					this.loading = false;
@@ -369,6 +372,17 @@ export default {
 				}
 			);
 			this.clearSelectAll();
+		},
+		// 获取调拨单内容--------------------------yuan
+		getAllList(){
+			this.loading=true;
+			getAllotList()
+			.then((res) => {
+				if (res.success) {
+					this.data = res.result.content;
+					this.total = res.result.total;
+				}
+			});
 		},
 
 		handleSearch() {
