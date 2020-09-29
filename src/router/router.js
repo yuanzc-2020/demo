@@ -53,7 +53,23 @@ export const switchCorp = {
     },
     component: () => import('@/views/card-common/common-switch-unit/common-switch-unit.vue')
 };
+// export const emailReceiptsManager = {
+//     path: '/emailReceiptsManager',
+//     name: 'emailReceiptsManager',
+//     meta: {
+//         title: '发票管理系统-切换单位', allowBack: false
+//     },
+//     component: () => import('@/views/email-receipts/email-receipts-manager/receipts-manager-all.vue')
+// };
 
+// export const receiptsQuery = {
+//     path: '/receiptsQuery',
+//     name: 'receiptsQuery',
+//     meta: {
+//         title: '发票管理系统-切换单位', allowBack: false
+//     },
+//     component: () => import('@/views/email-receipts/email-receipts-manager/receipts-query.vue')
+// };
 // 作为Main组件的子页面展示但是不在左侧菜单显示的路由写在otherRouter里
 export const otherRouter = {
     path: '/',
@@ -64,6 +80,8 @@ export const otherRouter = {
         { path: 'home', title: { i18n: 'home' }, name: 'home_index', component: () => import('@/views/home/home.vue') },
         { path: 'ownspace', title: '个人中心', name: 'ownspace_index', component: () => import('@/views/card-common/common-own-space/common-own-space.vue') },
         { path: 'change-pass', title: '修改密码', name: 'change_pass', component: () => import('@/views/card-common/common-change-pass/common-change-pass.vue') },
+        { path: 'emailReceiptsManager', title: '收据', name: 'emailReceiptsManager', component: () => import('@/views/email-receipts/email-receipts-manager/receipts-manager-all.vue') },
+        { path: 'receiptsQuery', title: '收据', name: 'receiptsQuery', component: () => import('@/views/email-receipts/email-receipts-manager/receipts-query.vue') },
     ]
 };
 
@@ -78,5 +96,7 @@ export const routers = [
     ...appRouter,
     page500,
     page403,
-    switchCorp
+    switchCorp,
+    // emailReceiptsManager,
+    // receiptsQuery,
 ];

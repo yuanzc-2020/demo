@@ -333,8 +333,8 @@ util.initRouter = function (vm) {
         let accessToken = window.localStorage.getItem('loginSessionId');
         // 加载菜单
         axios.get(getMenuList, { headers: { 'accessToken': accessToken } }).then(res => {
-            console.log("getMenu");
-            console.log(res.result);
+           
+            
             let menuData = res.result;
             if (!menuData) {
                 return;

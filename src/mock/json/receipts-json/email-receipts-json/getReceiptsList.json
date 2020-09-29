@@ -1,0 +1,51 @@
+{
+    "success": true,
+    "code": 0,
+    "message": "success",
+    "timestamp": 15923945487821,
+    "result": {
+        "content": [{
+                "applyReceiptsId": "51009200001",
+                "progressType": "电子收据流程",
+                "statusCode": "0",
+                "receiptsAddUserId": "2006013",
+                "addTime": "2020-06-15 08:23:30",
+                "applyFor": "谢谢谢谢",
+                "totalfee": "1000",
+                "emailReceiptsExaminerName":"万分"
+            },
+            {
+                "applyReceiptsId": "51009200001",
+                "progressType": "电子收据流程",
+                "statusCode": "1",
+                "receiptsAddUserId": "2006013",
+                "addTime": "2020-06-15 08:23:30",
+                "applyFor": "谢谢谢谢",
+                "totalfee": "1000",
+                "emailReceiptsExaminerName":"万分"
+            },
+            {
+                "applyReceiptsId": "51009200001",
+                "progressType": "电子收据流程",
+                "statusCode": "2",
+                "receiptsAddUserId": "2006013",
+                "addTime": "2020-06-15 08:23:30",
+                "applyFor": "谢谢谢谢",
+                "totalfee": "1000",
+                "emailReceiptsExaminerName":"万分"
+            },
+            {
+                "applyReceiptsId": "51009200001",
+                "progressType": "电子收据流程",
+                "statusCode": "0",
+                "receiptsAddUserId": "2006013",
+                "addTime": "2020-06-15 08:23:30",
+                "applyFor": "谢谢谢谢",
+                "totalfee": "1000",
+                "emailReceiptsExaminerName":"万分"
+            }
+            
+        ],
+        "total": 3
+    }
+}

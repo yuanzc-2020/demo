@@ -22,6 +22,7 @@ let API = {
         updateStatus: apiUrl + '/card/allot/update/status',
         allotSelect: apiUrl + '/card/allot/select',
     },
+    
 };
 
 export default {

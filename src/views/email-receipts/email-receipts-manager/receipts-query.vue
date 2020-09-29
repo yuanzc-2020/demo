@@ -1,10 +1,9 @@
 <style lang="less">
-@import '../../../styles/table-common.less';
 </style>
 <template>
-	<div class="search">
+	<div class="receiptsQuery">
 		<!-- 新增组件 -->
-		<AllotAdd
+		<ReceiptsAdd
 			v-if="currView == 'add'"
 			@close="currView = 'index'"
 			@fatherMethod="fatherMethod"
@@ -12,46 +11,62 @@
 			:transferData="transferData"
 		/>
 		<!-- 详细组件 -->
-		<AllotDetail
+		<ReceiptsDetail
 			v-if="currView == 'detail'"
 			@close="currView = 'index'"
 			@submited="submited"
-			:businessId="businessId"
+			:businessId="applyReceiptsId"
 		/>
 
 		<ProcessHistoricTrace
 			v-if="currView == 'trace'"
 			@close="currView = 'index'"
-			:traceId="businessId"
+			:traceId="applyReceiptsId"
 		/>
 		<!-- 主体结构包含所有子组件 -->
-		<Card v-show="currView == 'index'">
-			<!-- 绑定查询按钮，能否查询，@keydown.enter.native键盘回车事件 -->
-			<Row v-show="openSearch" @keydown.enter.native="handleSearch">
-				<!-- :model="searchForm"绑定数组及form表单的数据 -->
-				<Form
-					ref="searchForm"
+		   <Card  v-show="currView == 'index'">
+            <Row @keydown.enter.native="handleSearch" >
+                <Form
+                    ref="searchForm"
 					:model="searchForm"
 					inline
 					:label-width="100"
-				>
-					<!-- 表单内容 -->
-					<Form-item label="数据状态" prop="statusCode">
+                >
+                <!-- 表单内容 -->
+                    <Form-item label="单号">
+                        <Input v-model="searchForm.applyReceiptsId" placeholder="请输入单号" width="100px"></Input>
+                    </Form-item>
+                     <Form-item label="申请人">
+                        <Input v-model="searchForm.receiptsAddUserId" placeholder="请输入申请人" width="100px"></Input>
+                    </Form-item>
+					<Form-item label="票据类型">
 						<Select
-							v-model="searchForm.statusCode"
+							v-model="searchForm.receiptsType"
 							style="width: 250px"
 						>
-							
 							<Option
-								v-for="item in statusCodes"
-								:value="item.statusCode"
-								:key="item.statusCode"
-								:label="item.statusName"
-								>{{ item.statusName }}</Option
+								v-for="item in receiptsTypes"
+								:value="item.receiptsType"
+								:key="item.receiptsType"
+								:label="item.typeName"
+								>{{ item.typeName }}</Option
 							>
 						</Select>
 					</Form-item>
-
+                    <Form-item label="区域">
+                        <Select
+							v-model="searchForm.areaId"
+							style="width: 250px"
+						>
+							<Option
+								v-for="item in areaIds"
+								:value="item.areaId"
+								:key="item.areaId"
+								:label="item.areaName"
+								>{{ item.areaName }}</Option
+							>
+						</Select>
+                    </Form-item>
 					<Form-item label="新增时间">
 						<DatePicker
 							v-model="timeForm.addTime"
@@ -62,6 +77,7 @@
 							style="width: 250px"
 						></DatePicker>
 					</Form-item>
+
 					<Form-item style="margin-left: -35px" class="br">
 						<Button
 							@click="handleSearch"
@@ -71,11 +87,11 @@
 						>
 						<Button @click="handleReset">重置</Button>
 					</Form-item>
-				</Form>
-			</Row>
-			<Row class="operation">
+                </Form>
+            </Row>
+            <Row class="operation">
 				<Button @click="add" type="primary" icon="md-add"
-					>新增调拨单</Button
+					>新增收据申请单</Button
 				>
 				<Button
 					@click="processSubmit"
@@ -97,14 +113,7 @@
 					openTip ? '关闭提示' : '开启提示'
 				}}</Button>
 			</Row>
-			<Row v-show="openTip">
-				<Alert show-icon>
-					已选择数据
-					<span class="select-count">{{ selectCount }}</span>
-					<a class="select-clear" @click="clearSelectAll">清空</a>
-				</Alert>
-			</Row>
-			<Row>
+            <Row>
 				<Table
 					:loading="loading"
 					highlight-row
@@ -112,9 +121,7 @@
 					:columns="columns"
 					:data="data"
 					sortable="custom"
-					@on-sort-change="changeSort"
-					@on-current-change="changeTable"
-					@on-selection-change="showSelect"
+
 					ref="table"
 					size="small"
 				></Table>
@@ -133,7 +140,8 @@
 					show-sizer
 				></Page>
 			</Row>
-		</Card>
+
+        </Card>
 		<!-- 流程提交 -->
 		<ProcessStart
 			ref="processStart"
@@ -145,22 +153,20 @@
 </template>
 
 <script>
-import {
-	getAllotList,
-	deleteAllot,
-	getAllotStatus,
-	updateAlloatCardStatus,
-	
-} from '@/api/card-bill-api';
-import AllotAdd from './bill-allot-form.vue';
-import AllotDetail from './bill-allot-detail.vue';
+import{
+	getReceiptsStatus,
+    getReceiptsList,
+} from '@/api/email-receipts-api';
+
+import ReceiptsAdd from '@/views/receipts-common/receipts-form.vue';
+import ReceiptsDetail from '@/views/receipts-common/receipts-detail.vue';
 import ProcessStart from '@/views/card-flow/flow-process/flow-process-start';
 import ProcessHistoricTrace from '@/views/card-flow/flow-historic-detail/flow-historic-trace';
 export default {
-	name: 'Allot',
+	name: 'receiptsQuery',
 	components: {
-		AllotAdd,
-		AllotDetail,
+		ReceiptsAdd,
+		ReceiptsDetail,
 		ProcessStart,
 		ProcessHistoricTrace,
 	},
@@ -176,6 +182,9 @@ export default {
 			transferData: {},
 			selectCount: '',
 			selectList: [],
+			receiptsTypes:[],
+			areaIds:[],
+		
 			searchForm: {
 				pageNumber: 1,
 				pageSize: 10,
@@ -193,23 +202,18 @@ export default {
 					align: 'center',
 				},
 				{
-					title: '调拨编号',
-					key: 'allotId',
+					title: '申请单号',
+					key: 'applyReceiptsId',
 					width: 200,
 					align: 'center',
 				},
 				{
-					title: '目的单位',
-					key: 'toCorpName',
-					minWidth: 200,
+					title: '流程类型',
+					key: 'progressType',
+					minWidth: 150,
 					align: 'center',
 				},
-				{
-					title: '数量',
-					key: 'amount',
-					minWidth: 100,
-					align: 'center',
-				},
+				
 				{
 					title: '单据状态',
 					key: 'statusCode',
@@ -224,16 +228,36 @@ export default {
 						});
 						return h('div', text);
 					},
+
 				},
 				{
 					title: '新增人',
-					key: 'addUserName',
+					key: 'receiptsAddUserId',
 					width: 150,
 					align: 'center',
 				},
 				{
 					title: '新增时间',
 					key: 'addTime',
+					width: 180,
+					align: 'center',
+                },
+                {
+					title: '申请事由',
+					key: 'applyFor',
+					width: 180,
+					align: 'center',
+                },
+               
+                {
+					title: '票据金额',
+					key: 'totalfee',
+					width: 180,
+					align: 'center',
+                },
+                 {
+					title: '当前处理人',
+					key: 'emailReceiptsExaminerName',
 					width: 180,
 					align: 'center',
 				},
@@ -269,7 +293,7 @@ export default {
 										type: 'primary',
 										size: 'small',
 										disabled:
-											params.row.statusCode == '1000'
+											params.row.statusCode == '0'
 												? false
 												: true,
 									},
@@ -292,7 +316,7 @@ export default {
 										type: 'error',
 										size: 'small',
 										disabled:
-											params.row.statusCode == '1000'
+											params.row.statusCode == '0'
 												? false
 												: true,
 									},
@@ -318,14 +342,13 @@ export default {
 	},
 
 	methods: {
-		beforeCreate() {
-			console.log("111111111111111111111111111");
-			
+		init() {
 			this.setDateDeflut();
 			this.getDataList();
 			this.getStatusCodes();
-			this.getAllList();
-		},
+          	this.getAllList();
+        },
+       
 		fatherMethod() {
 			this.handleSearch();
 		},
@@ -341,15 +364,32 @@ export default {
 				this.searchForm.endDate = v[1];
 			}
 		},
+		// 获取状态码集合
 		getStatusCodes() {
-			getAllotStatus().then((res) => {
+			this.loading=true;
+			getReceiptsStatus().then((res) => {
 				if (res.success) {
 					this.statusCodes = res.result;
+					console.log(this.statusCodes);
+				
 				}
 			});
 		},
+			// 获取调拨单内容--------------------------yuan
+			getAllList(){
+				this.loading=true;
+				getReceiptsList()
+				.then((res) => {
+					if (res.success) {
+						console.log(res.result);
+						this.data = res.result.content;
+						this.total = res.result.total;
+					}
+				});
+			},
+		
 		changeTable(currentRow) {
-			this.selectCount = currentRow.allotId;
+			this.selectCount = currentRow.applyReceiptsId;
 			this.selectList = currentRow;
 		},
 		submited() {
@@ -373,7 +413,7 @@ export default {
 		
 		getDataList() {
 			this.loading = false;
-			getAllotList(this.globalUtil.filterParams(this.searchForm)).then(
+			getReceiptsList(this.globalUtil.filterParams(this.searchForm)).then(
 				(res) => {
 					this.loading = false;
 					if (res.success) {
@@ -384,18 +424,7 @@ export default {
 			);
 			this.clearSelectAll();
 		},
-		// 获取调拨单内容--------------------------yuan
-		getAllList(){
-			this.loading=true;
-			console.log("111111111111111111111111111");
-			getAllotList()
-			.then((res) => {
-				if (res.success) {
-					this.data = res.result.content;
-					this.total = res.result.total;
-				}
-			});
-		},
+		
 
 		handleSearch() {
 			this.searchForm.pageNumber = 1;
@@ -423,10 +452,10 @@ export default {
 		},
 		
 		edit(v) {
-			if (v.allotId) {
+			if (v.applyReceiptsId) {
 				let data = [];
 				data.actionType = 1;
-				data.allotId = v.allotId;
+				data.applyReceiptsId = v.applyReceiptsId;
 				data.toCorpId = v.toCorpId;
 				this.transferData = data;
 				this.currView = 'add';
@@ -434,8 +463,8 @@ export default {
 		},
 
 		details(v) {
-			if (v.allotId) {
-				this.businessId = v.allotId;
+			if (v.applyReceiptsId) {
+				this.applyReceiptsId = v.applyReceiptsId;
 				this.currView = 'detail';
 			}
 		},
@@ -443,10 +472,10 @@ export default {
 		remove(v) {
 			this.$Modal.confirm({
 				title: '确认删除',
-				content: '您确认要删除调拨单' + v.allotId + ' ?',
+				content: '您确认要删除调拨单' + v.applyReceiptsId + ' ?',
 				loading: true,
 				onOk: () => {
-					deleteAllot(v.allotId).then((res) => {
+					deleteAllot(v.applyReceiptsId).then((res) => {
 						this.$Modal.remove();
 						if (res.success) {
 							this.$Msg.success('操作成功');
@@ -462,7 +491,7 @@ export default {
 				this.$Msg.warning('您还未选择需要提交的数据');
 				return;
 			}
-			if (this.selectList.statusCode == 1000) {
+			if (this.selectList.statusCode == 0) {
 				this.$Modal.confirm({
 					title: '流程提交',
 					content: '您确认要提交所选的数据?',
@@ -484,7 +513,7 @@ export default {
 				this.$Msg.warning('您还未选择需要跟踪的数据');
 				return;
 			}
-			if (this.selectList.statusCode != 1000) {
+			if (this.selectList.statusCode != 0) {
 				this.businessId = this.selectCount;
 				this.currView = 'trace';
 			} else {
@@ -493,7 +522,7 @@ export default {
 		},
 	},
 	mounted() {
-		this.beforeCreate();
+		this.init();
 	},
 };
 </script>

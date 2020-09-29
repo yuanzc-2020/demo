@@ -120,6 +120,65 @@
             "selected": false,
             "children": [
                 {
+                    "id": "1204",
+                    "parentId": "12",
+                    "name": "email-receipts",
+                    "showAlways": true,
+                    "level": 1,
+                    "type": 0,
+                    "title": "电子收据管理",
+                    "path": "/email-receipts",
+                    "component": "Main",
+                    "icon": "logo-dribbble",
+                    "url": "",
+                    "buttonType": "",
+                    "expand": false,
+                    "checked": false,
+                    "selected": false,
+                    "children": [
+                        {
+                            "id": "120301",
+                            "parentId": "1204",
+                            "name": "emailReceiptsManager",
+                            "showAlways": true,
+                            "level": 2,
+                            "type": 0,
+                            "title": "收据申请",
+                            "path": "bill-allot",
+                            "component": "email-receipts/email-receipts-manager/receipts-manager-all",
+                            "icon": "md-folder",
+                            "url": "",
+                            "buttonType": "",
+                            "expand": false,
+                            "checked": false,
+                            "selected": false,
+                            "children": null,
+                            "permTypes": []
+                        },
+                        {
+                            "id": "120302",
+                            "parentId": "1204",
+                            "name": "receiptsQuery",
+                            "showAlways": true,
+                            "level": 2,
+                            "type": 0,
+                            "title": "收据查询",
+                            "path": "bill-allot",
+                            "component": "email-receipts/email-receipts-manager/receipts-query",
+                            "icon": "md-folder",
+                            "url": "",
+                            "buttonType": "",
+                            "expand": false,
+                            "checked": false,
+                            "selected": false,
+                            "children": null,
+                            "permTypes": []
+                        }
+                       
+                    ],
+                    "permTypes": null
+                },
+                {
                     "id": "1203",
                     "parentId": "12",
                     "name": "card-bill-allot",
@@ -155,9 +214,10 @@
                             "children": null,
                             "permTypes": []
                         }
+                       
                     ],
                     "permTypes": null
-                }
+                }   
             ],
             "permTypes": null
         },

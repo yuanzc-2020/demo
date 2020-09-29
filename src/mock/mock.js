@@ -10,11 +10,11 @@ const Mock = require("mockjs")
 console.log('前端 mock 环境启动成功')
 // 统一地址管理 
 import systemApiUrl from "../api/apiUrl/systemApiUrl.js";
-
 let base = '/invoice';
 
 //引入billApiUrl 下面才能调用
-import billApiUrl from "../api/apiUrl/billApiUrl.js"
+import billApiUrl from "../api/apiUrl/billApiUrl.js";
+import emailReceiptsUrl from "../api/apiUrl/emailReceiptUrl.js"
 
 // 格式： Mock.mock( url, post/get , 返回的数据)；
 
@@ -46,7 +46,12 @@ Mock.mock(base + systemApiUrl.API.login.resetByMobile, 'post', require('./json/l
 Mock.mock(base + billApiUrl.API.cardBillAllot.list, 'get', require('./json/bill-json/bill-allot/getAllotList.json'));
 
 
+//获取收据单列表
+Mock.mock(RegExp(base + emailReceiptsUrl.API.emailReceipt.receiptsList + ".*"), 'get', require('./json/receipts-json/email-receipts-json/getReceiptsList.json'));
+//获取收据单状态
+Mock.mock(RegExp(base + emailReceiptsUrl.API.emailReceipt.status + ".*"), 'get', require('./json/receipts-json/email-receipts-json/receipts-status.json'));
 
+Mock.mock(RegExp(base + billApiUrl.API.cardBillAllot.receiptsList + ".*"), 'get', require('./json/receipts-json/email-receipts-json/getReceiptsList.json'));
 
 Mock.mock(RegExp(base + systemApiUrl.API.login.getPrincipalList + ".*"), 'get', require('./json/json-common/getPrincipalList'))
 

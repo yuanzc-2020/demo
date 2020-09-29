@@ -1,7 +1,7 @@
  <style lang="less">
-@import '../../../styles/single-common.less';
-@import '../../../styles/table-common.less';
-@import '../../../styles/common.less';
+@import '../../styles/single-common.less';
+@import '../../styles/table-common.less';
+@import '../../styles/common.less';
 </style>
 <template>
 	<div>

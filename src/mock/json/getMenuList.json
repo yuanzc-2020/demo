@@ -122,7 +122,7 @@
                             "showAlways": true,
                             "level": 2,
                             "type": 0,
-                            "title": "市州调拨编制（市）",
+                            "title": "市州调拨",
                             "path": "bill-allot",
                             "component": "card-bill/bill-allot/bill-allot",
                             "icon": "md-folder",
@@ -130,24 +130,8 @@
                             "buttonType": "",
                             "children": null,
                             "permTypes": []
-                        },
-                       
-                        {
-                            "id": "120302",
-                            "parentId": "1203",
-                            "name": "email-receipts-manager",
-                            "showAlways": true,
-                            "level": 2,
-                            "type": 0, 
-                            "title": "电子收据",
-                            "path": "email-receipts-manager",
-                            "component": "email-receipts/email-receipts-manager/receipts-manager-all",
-                            "icon": "md-folder",
-                            "url": "",
-                            "buttonType": "",
-                            "children": null,
-                            "permTypes": []
                         }
+                
                     ],
                     "permTypes": null
                 }

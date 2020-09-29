@@ -2,6 +2,7 @@ const Mock = require('mockjs');
 console.log('前端 mock mock-bill 环境启动成功')
 // 统一地址管理 
 import billApiUrl from "../api/apiUrl/billApiUrl.js";
+
 let base = '/invoice';
 
 
@@ -23,4 +24,6 @@ Mock.mock(RegExp(base + billApiUrl.API.cardBillAllot.detailDelete + ".*"), 'post
 Mock.mock(RegExp(base + billApiUrl.API.cardBillAllot.deleteAllot + ".*"), 'post', require('./json/bill-json/bill-allot/datailList'));
 //调拨单-修改调拨状态
 Mock.mock(RegExp(base + billApiUrl.API.cardBillAllot.updateAlloatCardStatus + ".*"), 'post', require('./json/bill-json/bill-allot/datailList'));
+
+
 

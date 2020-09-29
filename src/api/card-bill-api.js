@@ -12,6 +12,10 @@ export const getNumber = (params) => {
 export const getAllotList = (params) => {
     return getRequest(billApiUrl.API.cardBillAllot.list, params);
 }
+
+
+
+
 export const getAllotDatailList = (params) => {
     return getRequest(billApiUrl.API.cardBillAllot.listItem, params);
 }

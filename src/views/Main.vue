@@ -33,6 +33,7 @@
 				</div>
 			</shrinkable-menu>
 		</div>
+	
 		<div
 			class="main-header-con"
 			:style="{ paddingLeft: shrink ? '60px' : '220px' }"
@@ -59,6 +60,7 @@
 							:currentPath="currentPath"
 						></breadcrumb-nav>
 					</div>
+					<!-- 导航栏 -->
 					<div
 						class="main-nav-menu"
 						v-if="navType == 1 || navType == 2"
@@ -68,6 +70,7 @@
 							:active-name="currNav"
 							@on-select="selectNav"
 						>
+						<!-- 遍历navList.slice中的数据 -->
 							<MenuItem
 								v-for="(item, i) in navList.slice(0, sliceNum)"
 								:key="i"
@@ -328,6 +331,7 @@ export default {
 		init() {
 			// 菜单
 			let pathArr = util.setCurrentPath(this, this.$route.name);
+		
 			// this.$store.commit("updateMenulist");
 			if (pathArr.length >= 2) {
 				this.$store.commit('addOpenSubmenu', pathArr[1].name);

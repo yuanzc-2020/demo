@@ -1,0 +1,39 @@
+{
+    "success": true,
+    "code": 0,
+    "message": "success",
+    "timestamp": 15923945487821,
+    "result": [
+        {
+            "statusCode": -2,
+            "statusName": "申请单作废"
+        },
+        {
+            "statusCode": -1,
+            "statusName": "审核未通过"
+        }, {
+            "statusCode": 0,
+            "statusName": "未提交"
+        },
+        {
+            "statusCode": 1,
+            "statusName": "已提交（经办人领导待审核"
+        },
+         {
+            "statusCode": 2,
+            "statusName": "经办人领导待审核通过"
+        } ,
+        {
+            "statusCode": 3,
+            "statusName": "财务人员审核通过"
+        },
+        {
+            "statusCode": 5,
+            "statusName": "已经开具电子收据"
+        },
+        {
+            "statusCode": 10,
+            "statusName": "业务信息处理完成"
+        }
+    ]
+}
